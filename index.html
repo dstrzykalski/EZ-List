@@ -28,15 +28,15 @@
         </div>
         <div class="nav">
             <ul>
-                <li id="movie">Movies</li>
-                <li id="TV Show">TV Shows</li>
-                <li id="music">Music</li>
-                <li id="game">Games</li>
-                <li id="sport">Sports</li>
-                <li id="food">Foods</li>
+                <li id="movie" onclick="document.getElementById('movie-list').scrollIntoView({ behavior: 'smooth' });">Movies</li>
+                <li id="TV Show" onclick="document.getElementById('show-list').scrollIntoView({ behavior: 'smooth' });">TV Shows</li>
+                <li id="music" onclick="document.getElementById('music-list').scrollIntoView({ behavior: 'smooth' });">Music</li>
+                <li id="game" onclick="document.getElementById('game-list').scrollIntoView({ behavior: 'smooth' });">Games</li>
+                <li id="sport" onclick="document.getElementById('sport-list').scrollIntoView({ behavior: 'smooth' });">Sports</li>
+                <li id="food" onclick="document.getElementById('food-list').scrollIntoView({ behavior: 'smooth' });">Foods</li>
             </ul>
         </div>
-        
+
         <div class="input">
             <input type="text" id="input" placeholder="Create a New List">
             <button id="add">Add</button>
