@@ -11,3 +11,9 @@ body {
     color: blue;
     padding: 1em;
 }
+
+.container {
+    width: 98%;
+    margin: 0 auto;
+    overflow: hidden;
+}
